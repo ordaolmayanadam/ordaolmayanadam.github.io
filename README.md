@@ -1,2 +1,5 @@
-# ordaolmayanadam.github.io
-Ordaolmayanadam's Public Website
+# Ordaolmayanadam's Web Site
+
+## License
+
+GNU General Public License v3.0
