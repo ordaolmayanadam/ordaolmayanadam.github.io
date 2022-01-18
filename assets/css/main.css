@@ -393,7 +393,7 @@ textarea {
   /* 2 */
 }
 
-/* Interactive
+/* Exoactive
    ========================================================================== */
 /*
  * Add the correct display in IE 9-.
@@ -437,7 +437,8 @@ template {
 }
 
 .highlight {
-  background-color: #faf9f9;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: #f2f2f2;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   margin: 0;
@@ -711,7 +712,7 @@ template {
   color: #a00;
 }
 
-/* Literal.String.Interpol */
+/* Literal.String.Exopol */
 .highlight .sx {
   color: #c30;
 }
@@ -773,7 +774,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Exo', sans-serif;
   color: #515151;
   background-color: #fbfbfb;
   margin: 0;
@@ -888,9 +889,11 @@ table tfoot td {
   position: relative;
 }
 
+/*
 .post, .article-page {
   background-color: #fff;
 }
+*/
 
 ::-moz-selection {
   background: rgba(38, 57, 89, 0.8);
@@ -969,7 +972,7 @@ table tfoot td {
 }
 
 .about .author-name {
-  font-family: 'PT Serif', serif;
+  font-family: 'Exo', serif;
   margin: 0 0 10px;
   position: relative;
   padding-bottom: 15px;
@@ -977,22 +980,6 @@ table tfoot td {
   text-transform: uppercase;
   color: #333030;
   font-weight: 700;
-}
-
-.about .author-name::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-  bottom: 0;
-  display: block;
-  width: 7px;
-  height: 7px;
-  -webkit-border-radius: 100%;
-          border-radius: 100%;
-  background-color: #515151;
 }
 
 .about p {
@@ -1101,9 +1088,9 @@ footer .copyright {
 }
 
 .post {
+  border-bottom: 1px solid #f0ededad;
   width: 100%;
   max-width: 100%;
-  margin-bottom: 1.5rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1117,15 +1104,14 @@ footer .copyright {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  min-height: 11rem;
-  -webkit-border-radius: 10px;
-          border-radius: 10px;
   overflow: hidden;
   -webkit-transition: all .3s ease;
   -o-transition: all .3s ease;
   transition: all .3s ease;
-  -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-          box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+}
+
+.post:last-of-type {
+  border-bottom: none;
 }
 
 .post:hover {
@@ -1153,16 +1139,17 @@ footer .copyright {
 .post .post-content .post-date,
 .post .post-content .post-words {
   font-size: 12px;
+  color:#979ea8;
 }
 
 .post .post-content .post-title {
-  margin: 0 0 10px;
-  font-size: 30px;
-  font-weight: 400;
+  margin: 0 0 1px;
+  font-size: 22px;
+  font-weight: 600;
 }
 
 .post .post-content .post-title a {
-  font-family: 'PT Serif', serif;
+  font-family: 'Exo', serif;
   text-decoration: none;
   color: #263959;
 }
