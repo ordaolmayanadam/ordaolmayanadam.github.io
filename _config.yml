@@ -30,7 +30,7 @@ twitter_username: ordaolmayanadam
 github_username:  ordaolmayanadam
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
