@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Gnome Masaüstü 4K Deneyimi"
-date: 2022-02-11 13:32:20 +0300
+title: "Gnome Masaüstü 4K Deneyimi - 1"
+date: 2022-03-07 00:32:20 +0300
 description: Gnome masaüstü arayüzünü 4K bir ekranda kendi kullanımım için nasıl özelleştirdim - 1
 tags: linux gnome customization hidpi tweaks
-img:  /assets/img/gnome.png
+img: gnome.png
 ---
 Gnome çok başarılı bir özgür masaüstü ortamı olsa da varsayılan olarak ne yazık ki yüksek çözünürlüklü (HiDPI) ekranlar için güzel bir deneyim sunamıyor. 
 Bunu daha da genişleterek diğer özgür masaüstü ortamları için de söylemek mümkün ancak özellikle tile-based masaüstü ortamlarını kendim çok deneyimlemediğim 
